@@ -7,6 +7,7 @@ import com.squareup.moshi.JsonClass
 @JsonClass(generateAdapter = true)
 data class  Book(
     @field:Json(name = "authors")
+
     val authors: List<String>,
     @field:Json(name = "contents")
     val contents: String,
